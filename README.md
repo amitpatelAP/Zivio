@@ -1,16 +1,50 @@
-# React + Vite
+# Zivio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Zivio is a modern, fast, and responsive e-commerce web application built for fashion and clothing retail.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Routing:** Seamless navigation using React Router.
+- **Product Catalog:** A dedicated Shop page to browse various clothing categories and items.
+- **Product Details:** Individual product pages with high-quality images and descriptions.
+- **Shopping Cart:** Add, remove, and review items in the cart before checkout.
+- **Blog Section:** Keep customers updated with the latest fashion trends.
+- **Responsive Design:** A fully mobile-friendly interface, ensuring a great shopping experience on any device.
+- **Fast Performance:** Built with Vite and React for lightning-fast load times.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React 18](https://reactjs.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Routing:** [React Router v6](https://reactrouter.com/)
+- **Styling:** CSS3 (with responsive media queries)
 
-## Expanding the Oxlint configuration
+## Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run Zivio on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/amitpatelAP/Zivio.git
+   cd Zivio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. Open `http://localhost:5173` in your browser.
+
+## Deployment
+
+This project is configured to be easily deployable on **Vercel**. 
+
+1. Connect your GitHub repository to Vercel.
+2. Vercel will automatically detect the Vite + React setup.
+3. The included `vercel.json` ensures that client-side routing works perfectly out of the box.
