@@ -10,6 +10,7 @@ import Blog from './pages/Blog';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Cart from './pages/Cart';
+import DiscountNudge from './components/DiscountNudge';
 
 const AppLayout = () => {
     const location = useLocation();
@@ -29,6 +30,7 @@ const AppLayout = () => {
             </Routes>
             {showNewsletter && <Newsletter />}
             <Footer />
+            <DiscountNudge />
         </>
     );
 };

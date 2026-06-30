@@ -1037,9 +1037,12 @@ footer .install img{
     }
     #coupon{
         width: 100%;
-    }
-    #subtotal{
-        width: 100%;
-        padding: 20px;
-    }
+    font-size: 13px;
+}
+
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
