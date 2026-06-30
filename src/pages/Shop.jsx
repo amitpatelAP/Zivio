@@ -33,7 +33,7 @@ const Shop = () => {
                                         <i className="fas fa-star" key={i}></i>
                                     ))}
                                 </div>
-                                <h4>${product.price}</h4>
+                                <h4>₹{product.price}</h4>
                             </div>
                             <div className="cart">
                                 <Link to="#" onClick={(e) => e.preventDefault()}><i className="fa-solid fa-cart-shopping"></i></Link>

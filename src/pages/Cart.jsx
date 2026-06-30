@@ -26,25 +26,25 @@ const Cart = () => {
                             <td><Link to="#"><i className="far fa-times-circle"></i></Link></td>
                             <td><img src="/imgs/img/product2.webp" alt="" /></td>
                             <td>Summer Plus Size T-Shirt</td>
-                            <td>$15</td>
+                            <td>₹15</td>
                             <td><input type="number" defaultValue="1" /></td>
-                            <td>$15</td>
+                            <td>₹15</td>
                         </tr>
                         <tr>
                             <td><Link to="#"><i className="far fa-times-circle"></i></Link></td>
                             <td><img src="/imgs/img/shop_product5.jpg" alt="" /></td>
                             <td>Printed T-Shirt</td>
-                            <td>$0.87</td>
+                            <td>₹0.87</td>
                             <td><input type="number" defaultValue="1" /></td>
-                            <td>$0.87</td>
+                            <td>₹0.87</td>
                         </tr>
                         <tr>
                             <td><Link to="#"><i className="far fa-times-circle"></i></Link></td>
                             <td><img src="/imgs/img/arrival8.webp" alt="" /></td>
                             <td>Magnetic Keychain</td>
-                            <td>$6</td>
+                            <td>₹6</td>
                             <td><input type="number" defaultValue="1" /></td>
-                            <td>$6</td>
+                            <td>₹6</td>
                         </tr>
                     </tbody>
                 </table>
@@ -64,7 +64,7 @@ const Cart = () => {
                         <tbody>
                             <tr>
                                 <td>Cart Subtotal</td>
-                                <td>$21.87</td>
+                                <td>₹21.87</td>
                             </tr>
                             <tr>
                                 <td>Shipping</td>
@@ -72,7 +72,7 @@ const Cart = () => {
                             </tr>
                             <tr>
                                 <td><strong>Total</strong></td>
-                                <td><strong>$21.87</strong></td>
+                                <td><strong>₹21.87</strong></td>
                             </tr>
                         </tbody>
                     </table>

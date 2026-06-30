@@ -34,7 +34,7 @@ const RecommendedPanel = () => {
                                     <i className="fas fa-star" key={i}></i>
                                 ))}
                             </div>
-                            <h4>${product.price}</h4>
+                            <h4>₹{product.price}</h4>
                         </div>
                         <a href="#"><i className="fal fa-shopping-cart cart"></i></a>
                     </div>

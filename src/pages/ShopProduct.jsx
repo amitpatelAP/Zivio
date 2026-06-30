@@ -52,7 +52,7 @@ const ShopProduct = () => {
                 <div className="single-pro-details">
                     <h6>Home / {product.category}</h6>
                     <h4>{product.name}</h4>
-                    <h2>${product.price}</h2>
+                    <h2>₹{product.price}</h2>
                     <select defaultValue="Select Size">
                         <option disabled>Select Size</option>
                         <option>XL</option>

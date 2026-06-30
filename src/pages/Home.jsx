@@ -66,7 +66,7 @@ const Home = () => {
                                         <i className="fas fa-star" key={i}></i>
                                     ))}
                                 </div>
-                                <h4>${product.price}</h4>
+                                <h4>₹{product.price}</h4>
                             </div>
                             <Link to="/shop-product" state={{ product }}><i className="fa-solid fa-cart-shopping cart"></i></Link>
                         </div>
@@ -97,7 +97,7 @@ const Home = () => {
                                         <i className="fas fa-star" key={i}></i>
                                     ))}
                                 </div>
-                                <h4>${product.price}</h4>
+                                <h4>₹{product.price}</h4>
                             </div>
                             <Link to="/shop-product" state={{ product }}><i className="fa-solid fa-cart-shopping cart"></i></Link>
                         </div>
