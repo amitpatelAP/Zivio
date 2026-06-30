@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                <p>© 2025, Tech2 etc - HTML CSS Ecommerce Template</p>
+                <p>© 2025, Zivio - Amit Patel</p>
             </div>
         </footer>
     );
