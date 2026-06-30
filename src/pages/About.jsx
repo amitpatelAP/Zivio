@@ -13,10 +13,10 @@ const About = () => {
                 <img src="/imgs/img/about_shop.avif" alt="" />
                 <div>
                     <h2>Who We Are?</h2>
-                    <p>Welcome to Carto, your go-to destination for quality products at unbeatable prices. 
+                    <p>Welcome to Zivio, your go-to destination for quality products at unbeatable prices. 
                     We are committed to providing a seamless online shopping experience with a wide range of products to meet your everyday needs. 
                     Our goal is to bring you the best deals, reliable service, and fast delivery right to your doorstep.
-                    At Carto, we believe in customer satisfaction and hassle-free shopping. Whether you're looking for the latest trends, essential items, 
+                    At Zivio, we believe in customer satisfaction and hassle-free shopping. Whether you're looking for the latest trends, essential items, 
                     or exclusive deals, we’ve got you covered. Shop with confidence, knowing that we prioritize quality, affordability, and convenience.
                     Join us on this journey and make shopping easier than ever!</p>
                     <abbr title="">Create stunning images with as much or as little control as you like thanks to a choice of Basic and Creative modes.</abbr>
