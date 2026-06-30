@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { products } from '../data/products';
 import RecommendedPanel from '../components/RecommendedPanel';
 import { useTracking } from '../hooks/useTracking';
 
 const Home = () => {
     const { trackProductView } = useTracking();
+    const navigate = useNavigate();
     const featuredProducts = products.slice(0, 8);
     const newArrivals = products.slice(8, 16);
 
@@ -16,7 +17,7 @@ const Home = () => {
                 <h2>Super values deals</h2>
                 <h1>Limited-Time Offers!</h1>
                 <p>Save Big on Customized Goodies – Up to 70% Off!</p>
-                <button>Shop Now</button>
+                <button onClick={() => navigate('/shop')}>Shop Now</button>
             </section>
 
             <section id="feature" className="section-p1">
@@ -76,7 +77,7 @@ const Home = () => {
             <section id="banner" className="section-m1">
                 <h4>Repair Services</h4>
                 <h2>Up to <span>70% Off</span> - All T-shirts and Accessories</h2>
-                <button className="normal">Explore Mode</button>
+                <button className="normal" onClick={() => navigate('/shop')}>Explore Mode</button>
             </section>
 
             <section id="product1" className="section-p1">
@@ -109,13 +110,13 @@ const Home = () => {
                     <h4>crazy deals</h4>
                     <h2>buy 1 get 1 free</h2>
                     <span>The best customized t-shirt is on sale at crafti</span>
-                    <button className="white">Learn More</button>
+                    <button className="white" onClick={() => navigate('/shop')}>Learn More</button>
                 </div>
                 <div className="banner-box banner-box2">
                     <h4>spring/summer</h4>
                     <h2>upsoming season</h2>
                     <span>The best customized t-shirt is on sale at crafti</span>
-                    <button className="white">Collection</button>
+                    <button className="white" onClick={() => navigate('/shop')}>Collection</button>
                 </div>
             </section>
 
