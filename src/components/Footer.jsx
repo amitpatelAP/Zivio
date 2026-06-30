@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="section-p1">
             <div className="col">
-                <img className="logo" src="/imgs/img/footer_logo.png" alt="" />
+                <h2 className="logo" style={{ color: '#088178', fontStyle: 'italic', fontWeight: 800, fontSize: '32px', marginBottom: '20px' }}>Zivio</h2>
                 <h4>Contact</h4>
                 <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
                 <p><strong>Phone:</strong> +91 22 2253 6535 /(+91) 01 2345 6789</p>

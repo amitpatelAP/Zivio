@@ -20,7 +20,9 @@ const Navbar = () => {
 
     return (
         <section id="header">
-            <Link to="/"><img width="90px" height="55px" src="/imgs/img/logo.png" className="logo" alt="" /></Link>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+                <h2 className="logo" style={{ margin: 0, color: '#088178', fontStyle: 'italic', fontWeight: 800, fontSize: '32px' }}>Zivio</h2>
+            </Link>
 
             <div>
                 <ul id="navbar" className={isNavActive ? 'active' : ''}>
